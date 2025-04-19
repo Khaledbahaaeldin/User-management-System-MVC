@@ -21,10 +21,6 @@ This application provides a complete user management solution with authenticatio
 - TypeScript
 - Axios for API requests
 
-## Project Structure
-├── backend/ # Express.js backend │ ├── controllers/ # Request handlers │ │ └── userController.js │ ├── middleware/ # Auth middleware │ │ └── authMiddleware.js │ ├── models/ # Database models │ │ └── User.js │ ├── routes/ # API routes │ │ └── userRoutes.js │ ├── .env # Environment variables │ └── server.js # Application entry point │ ├── frontend/ # Next.js frontend │ ├── app/ # Next.js App Router │ │ ├── dashboard/ # Protected dashboard │ │ ├── login/ # Login page │ │ ├── register/ # Registration page │ │ ├── layout.tsx # Root layout with auth │ │ └── page.tsx # Home page │ └── utils/ # Utility functions
-
-
 ## Features
 
 - User registration and authentication
