@@ -1,0 +1,35 @@
+# Ignore Next.js dependencies
+node_modules/
+.next/
+npm-debug.log
+yarn-error.log
+
+# Ignore environment variables
+.env
+.env.local
+
+# Ignore IDE/Editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+/dist/
+/build/
+
+# Ignore static assets (if not part of the project)
+/public/uploads/
+
+# Ignore TypeScript build artifacts
+*.js
+*.js.map
+*.d.ts
